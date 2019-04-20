@@ -1,4 +1,4 @@
-from aoo import app
+from app import app
 from db import db
 
 
