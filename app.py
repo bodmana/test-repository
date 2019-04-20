@@ -16,9 +16,9 @@ app.secret_key = 'jose'
 
 api = Api(app)
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
+#@app.before_first_request
+#def create_tables():
+#    db.create_all()
 
 
 #JWT creates a new endpoint /auth. username and password is sent to authenticate function. Checks if it is a valid user. (I think)
